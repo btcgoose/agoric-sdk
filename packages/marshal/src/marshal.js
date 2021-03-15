@@ -498,7 +498,7 @@ function passStyleOfInternal(val) {
 // By itself this speedup isn't that interesting. However if
 // we want passStyleOf to detect cycles too
 // https://github.com/Agoric/agoric-sdk/issues/2478
-// Then this caching becomes necessary to recursive algorithms
+// Then this caching becomes necessary to keep recursive algorithms
 // from being O(N**2).
 //
 // TODO must assess threat from observable mutable static state.
