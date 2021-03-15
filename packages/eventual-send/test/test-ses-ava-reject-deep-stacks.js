@@ -11,9 +11,6 @@ const test = wrapTest(rawTest);
 
 test('ses-ava reject console output', t => {
   t.assert(true);
-  // Uncomment this to see something like the text in the extended comment below
-
-  /*
   return E.when(Promise.resolve(null), v1 =>
     E.when(v1, v2 =>
       E.when(v2, _ => {
@@ -21,11 +18,9 @@ test('ses-ava reject console output', t => {
       }),
     ),
   );
-  */
 });
 
 /*
-Uncommenting the test code above should produce something like the following.
 Some of this output still comes from ava. The stack-like display comes from
 the SES `console`, which shows the detailed error message including the
 redacted `'NOTICE ME'` that ava has no access to.
