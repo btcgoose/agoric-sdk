@@ -82,6 +82,8 @@
       "# F test/unitTests/contracts/test-automaticRefund.js multiple instances of automaticRefund for the same Zoe",
       "# bad plan: 6 still to go",
       "contracts/test-automaticRefund.js",
+      "Xmessage: 'isOfferSafe - less than want, less than give threw: get super 32554: no home'",
+      "test-offerSafety.js",
       "# We use WORKER_TYPE=xs ava to run these...",
       "swingsetTests"
     ]
